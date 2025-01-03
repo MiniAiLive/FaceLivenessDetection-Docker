@@ -1,11 +1,11 @@
 <div align="center">
-   <h1>Face Liveness Detection Linux SDK</h1>
+   <h1>Face Liveness Detection Docker</h1>
    <img src=https://miniai.live/wp-content/uploads/2024/02/logo_name-1-768x426-1.png alt="MiniAiLive Logo"
    width="300">
 </div>
 
 ## Welcome to the [MiniAiLive](https://www.miniai.live/)!
-A 100% spoofing-prevention rate for both 3D printed and resin facial masks, confirms MiniAiLive® as a leading facial recognition solution for preventing biometric fraud in remote applications, such as online banking, requiring identity verification before granting access to sensitive data or valuable assets. Feel free to use our MiniAI 3D Face Passive Liveness Detection (face anti-spoofing) Linux SDK.
+A 100% spoofing-prevention rate for both 3D printed and resin facial masks, confirms MiniAiLive® as a leading facial recognition solution for preventing biometric fraud in remote applications, such as online banking, requiring identity verification before granting access to sensitive data or valuable assets. Feel free to use our MiniAI 3D Face Passive Liveness Detection (face anti-spoofing) Docker.
 
 > **Note**
 >
@@ -18,7 +18,7 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
 - [Gradio Demo](#gradio-demo)
 - [Python Test API Example](#python-test-api-example)
 
-## Face-LivenessSDK Installation Guide
+## Face-LivenessSDK Docker Installation Guide
 
 ### Prerequisites
 
@@ -29,13 +29,13 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
 
 ### Installation Steps
 
-1. **Download the Face Liveness Detection Linux Server Installer:**
+1. **Download the Face Liveness Detection Docker Image:**
 
-   Download the Server installer for your operating system from the following link:
+   Download the Server Docker Image from the following link:
    
-   [Download the On-premise Server Installer](https://drive.google.com/file/d/1nFxftQYJPh-BJ5NRiIaAG5d9bC5Ydo5E/view?usp=sharing)
+   [Download the On-premise Server Installer](https://drive.google.com/file/d/1KMYY-G356SblP8efleJuGDPWJ9S3e2Dh/view?usp=sharing)
 
-2. **Install the On-premise Server:**
+2. **Install the On-premise Docker Server:**
 
    Run the installer and follow the on-screen instructions to complete the installation. Go to the Download folder and run this command.
    ```sh
