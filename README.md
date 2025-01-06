@@ -80,6 +80,7 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
    <div align="center">
       <img src=https://github.com/user-attachments/assets/1abcc33c-5e70-4ee6-ba61-4f18a994f0cb alt="MiniAiLive Installer">
    </div>
+   
 ## Face-LivenessSDK API Details
 
 ### Endpoint
