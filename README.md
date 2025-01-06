@@ -37,10 +37,10 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
 
 2. **Install the On-premise Docker Server:**
 
-   Run the installer and follow the on-screen instructions to complete the installation. Go to the Download folder and run this command.
+   Run the Docker Image and follow the on-screen instructions to complete the installation. Go to the Download folder and run this command.
    ```sh
    $ cd Download
-   $ sudo dpkg -i --force-overwrite MiniAiLive-FaceLiveness-LinuxServer.deb
+   $ sudo docker load -i MiniAiLive-FaceLiveSDK-DockerImg.tar
    ```
 <div align="center">
    <img src=https://github.com/user-attachments/assets/01507acf-cca0-43c7-91f8-f9605805219b alt="MiniAiLive Installer">
@@ -52,8 +52,7 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
 
    You can generate the License Request file by using this command:
    ```sh
-   $ cd /opt/mini-faceliveness/
-   $ sudo ./MiRequest request /home/ubuntu/Download/trial_request.miq
+   $ sudo ./MiRequest_FaceLiveSDK request /home/ubuntu/Download/trial_request.miq
    ```
 <div align="center">
    <img src=https://github.com/user-attachments/assets/f5204c7b-af9d-448b-a23c-ee743271bff4 alt="MiniAiLive Installer">
@@ -62,7 +61,7 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
    Then you can see the license request file on your directory, and send it to us via email or WhatsApp. We will send the license based on your Unique Request file, then you can upload the license file to allow to use. Refer the below images.
    
    ```sh
-   $ sudo ./MiRequest update /home/ubuntu/Download/Faceliveness_trial_linux.mis
+   $ sudo docker run -d --privileged -v /home/ubuntu/Downloads/trial.mis:/var/idsdk.license -p {your_port}:8092 mini-idsdk-server
    ```
 <div align="center">
    <img src=https://github.com/user-attachments/assets/beb4aedc-fe98-4803-9b9c-a62d749cf1f3 alt="MiniAiLive Installer">
