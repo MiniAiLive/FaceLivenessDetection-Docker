@@ -52,6 +52,7 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
 
    You can generate the License Request file by using this command:
    ```sh
+   $ sudo chmod 777 ./MiRequest_FaceLiveSDK
    $ sudo ./MiRequest_FaceLiveSDK request /home/ubuntu/Download/trial_request.miq
    ```
 <div align="center">
@@ -61,7 +62,9 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
    Then you can see the license request file on your directory, and send it to us via email or WhatsApp. We will send the license based on your Unique Request file, then you can upload the license file to allow to use. Refer the below images.
    
    ```sh
-   $ sudo docker run -d --privileged -v /home/ubuntu/Downloads/trial.mis:/var/idsdk.license -p {your_port}:8092 mini-idsdk-server
+   $ sudo apt install chrony
+   $ sudo chmod 777 ./run_docker
+   $ sudo ./run_docker /home/ubuntu/Downloads/trial.mis 8092 mini-facelivesdk-server
    ```
 <div align="center">
    <img src=https://github.com/user-attachments/assets/beb4aedc-fe98-4803-9b9c-a62d749cf1f3 alt="MiniAiLive Installer">
@@ -71,13 +74,12 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
 
    After installation, verify that the On-premise Server is correctly installed by using this command:
    ```sh
-   $ systemctl list-units --state running
+   $ netstat -tnpl
    ```
-   If you can see 'Mini-faceliveness-svc.service', the server has been installed successfully. Refer the below image.
-<div align="center">
-   <img src=https://github.com/user-attachments/assets/af1d7c37-62af-4191-bbc0-d57745c89362 alt="MiniAiLive Installer">
-</div>
-
+   If you can see opened your port correctly, the server has been installed successfully. Refer the below image.
+   <div align="center">
+      <img src=https://github.com/user-attachments/assets/1abcc33c-5e70-4ee6-ba61-4f18a994f0cb alt="MiniAiLive Installer">
+   </div>
 ## Face-LivenessSDK API Details
 
 ### Endpoint
