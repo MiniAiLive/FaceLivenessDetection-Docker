@@ -33,7 +33,7 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
 
    Download the Server Docker Image from the following link:
    
-   [Download the On-premise Server Installer](https://drive.google.com/file/d/1KMYY-G356SblP8efleJuGDPWJ9S3e2Dh/view?usp=sharing)
+   [Download the On-premise Server Installer](https://drive.google.com/file/d/1vnj7HbuOOCSFsS4bqtoc6PNdc8G3Gojp/view?usp=sharing)
 
 2. **Install the On-premise Docker Server:**
 
@@ -43,7 +43,7 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
    $ sudo docker load -i MiniAiLive-FaceLiveSDK-DockerImg.tar
    ```
 <div align="center">
-   <img src=https://github.com/user-attachments/assets/01507acf-cca0-43c7-91f8-f9605805219b alt="MiniAiLive Installer">
+   <img src=https://github.com/user-attachments/assets/6bdabb34-86f7-4568-9ced-d6fc29b7bc78 alt="MiniAiLive Installer">
 </div>
 
    You can refer our Documentation here. https://docs.miniai.live
@@ -53,21 +53,21 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
    You can generate the License Request file by using this command:
    ```sh
    $ sudo chmod 777 ./MiRequest_FaceLiveSDK
-   $ sudo ./MiRequest_FaceLiveSDK request /home/ubuntu/Download/trial_request.miq
+   $ sudo ./MiRequest_FaceLiveSDK request /home/ubuntu/Download/trial_key.miq
    ```
 <div align="center">
-   <img src=https://github.com/user-attachments/assets/f5204c7b-af9d-448b-a23c-ee743271bff4 alt="MiniAiLive Installer">
+   <img src=https://github.com/user-attachments/assets/0c0c57b2-3635-49bc-85a6-8831eeec4c4e alt="MiniAiLive Installer">
 </div>
 
    Then you can see the license request file on your directory, and send it to us via email or WhatsApp. We will send the license based on your Unique Request file, then you can upload the license file to allow to use. Refer the below images.
    
    ```sh
    $ sudo apt install chrony
-   $ sudo chmod 777 ./run_docker
-   $ sudo ./run_docker /home/ubuntu/Downloads/trial.mis 8092 mini-facelivesdk-server
+   $ sudo chmod 777 ./run_faceliveness_docker
+   $ sudo ./run_faceliveness_docker /home/ubuntu/Downloads/trial_key.mis 8092 mini-facelivesdk-server
    ```
 <div align="center">
-   <img src=https://github.com/user-attachments/assets/beb4aedc-fe98-4803-9b9c-a62d749cf1f3 alt="MiniAiLive Installer">
+   <img src=https://github.com/user-attachments/assets/4b1ba043-6c6d-4642-b51f-95a19c293306 alt="MiniAiLive Installer">
 </div>
 
 4. **Verify Installation:**
@@ -78,7 +78,7 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
    ```
    If you can see opened your port correctly, the server has been installed successfully. Refer the below image.
    <div align="center">
-      <img src=https://github.com/user-attachments/assets/1abcc33c-5e70-4ee6-ba61-4f18a994f0cb alt="MiniAiLive Installer">
+      <img src=https://github.com/user-attachments/assets/41e51a54-d280-44f8-8eb5-16cec347561d alt="MiniAiLive Installer">
    </div>
    
 ## Face-LivenessSDK API Details
