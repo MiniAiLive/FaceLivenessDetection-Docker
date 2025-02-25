@@ -33,7 +33,7 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
 
    Download the Server Docker Image from the following link:
    
-   [Download the On-premise Server Installer](https://drive.google.com/file/d/1vnj7HbuOOCSFsS4bqtoc6PNdc8G3Gojp/view?usp=sharing)
+   [Download the On-premise Server Installer](https://drive.google.com/file/d/1c4I_GZvQzaqlIqyZMzOEiEB1_tqL_-GP/view?usp=sharing)
 
 2. **Install the On-premise Docker Server:**
 
